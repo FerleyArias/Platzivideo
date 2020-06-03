@@ -1,0 +1,19 @@
+@media(max-width: 1104px){
+    .menu{
+        display: none;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .principal{
+        grid-column-start: 1;
+    }
+}
+@media(max-width: 805px){
+    .principal-comunity-ads{
+        display: none;
+    }
+    .principal-comunity{
+        grid-template-columns: 1fr;
+    }
+}
